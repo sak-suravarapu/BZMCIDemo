@@ -1,0 +1,8 @@
+execution:
+  - scenario: simple_get
+
+scenarios:
+  simple_get:
+    requests:
+      - url: ${url}
+        method: GET
