@@ -1,0 +1,8 @@
+execution:
+  - scenario: simple_get
+
+scenarios:
+  simple_get:
+    requests:
+      - url: https://api.demoblaze.com/entries
+        method: GET
